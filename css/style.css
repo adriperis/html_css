@@ -1,0 +1,95 @@
+/*
+    Hoja de estilos para  el ejercicio "Sitio HTML y CSS"
+
+    versión 0.1 23/10/23
+
+    Ejercicio basado en un prototipo (ver plataforma) de una empresa ficticia (ACME)
+
+        - Colores corporativos: granate y beige/crema
+
+        - Tipografías: Montserrat (texto corrido) y Corben Bold (títulos)
+
+*/
+
+
+/* - - Carga de tipografías externas - - */
+
+
+
+
+
+/* - - Propiedades generales - - */
+*, 
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(36, 100%, 90%);
+    color: black;
+
+    font-family: Helvetica, sans-serif;
+}
+
+.contenedor{
+    /* contenedor flexible, centrado y con límite para pantallas muy grandes */
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+/* - - - - - CABECERA - - - - - */
+header{
+    background-color: maroon;
+    color: beige;
+}
+
+
+
+
+
+
+/* - - Menú de navegación - - */
+nav ul {
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* - - - - - CONTENIDO PRINCIPAL - - - - - */
+
+
+
+
+
+
+
+
+
+
+/* - - - - - PIE DE PÁGINA - - - - - */
+footer{
+    background-color: maroon;
+    color: beige;
+}
